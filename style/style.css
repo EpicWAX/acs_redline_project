@@ -1,0 +1,68 @@
+/*
+id#
+class.
+	nav#sidebar
+		div#logo
+			a#home_redirect
+				i.logo
+		ul#nav_link
+		ul#external_link
+	section#content
+		h1#main_title
+*/
+
+
+/* global css for navbar and content box */
+body {
+	/*background-image: url('http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/items/645090/5e8481a97b1c8aba08849e2510696a24a4a1935a.jpg');*/
+    background-color: grey;
+}
+
+#sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	background-color: #181818;
+}
+
+#logo_div {
+	background-color: black;
+	height: 50px;
+}
+
+.logo_icon {
+	margin-left: 9px;
+	margin-top: 9px;
+}
+
+* ul {
+	list-style-type: none;
+	width: 50px;
+	padding-left: 17px;
+}
+
+#nav_link {
+	/*placement millieu de sidebar*/
+}
+
+#external_link {
+	/*placement en bas de sidebar*/
+}
+
+/*sidebar icon style*/
+a {
+	color: white;
+}
+
+a:hover{
+	color: cyan;
+}
+
+#content {
+	padding-left: 50px;
+	width: 100% - 50px;
+	height: 100%;
+	margin: 0 auto;
+}
